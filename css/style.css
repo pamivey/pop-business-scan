@@ -382,6 +382,8 @@ button { font-family: inherit; }
   justify-content: center;
 }
 
+ .screen--loading[hidden] { display: none; }
+
 .loading__inner {
   text-align: center;
 }

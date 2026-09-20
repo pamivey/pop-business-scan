@@ -611,6 +611,6 @@ el.btnCta.addEventListener("click", () => trackEvent("pop_cta_clicked"));
 
 function trackEvent(name, payload) {
   // Example once Google Analytics (gtag.js) is installed in index.html:
-  // if (typeof gtag === "function") gtag("event", name, payload || {});
+  if (typeof gtag === "function") gtag("event", name, payload || {});
   console.log("[POP Business Scan] event:", name, payload || {});
 }

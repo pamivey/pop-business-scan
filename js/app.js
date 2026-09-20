@@ -69,12 +69,12 @@ const QUESTIONS = [
   {
     id: "q3",
     category: "capacity",
-    text: "Picture your best month ever — 30% more sales than usual. What actually happens inside the business?",
+    text: "If your business suddenly had 30% more customer demand next month, how easily could you deliver it?",
     answers: [
-      { text: "Margins hold. My systems and team absorb it well.", points: { capacity: 0 } },
-      { text: "It's tight for a few weeks, but it's manageable.", points: { capacity: 1 } },
-      { text: "I end up covering the gap myself — nights, weekends, whatever it takes.", points: { capacity: 2, focus: 1 } },
-      { text: "I'd likely have to turn some of it away or push out delivery.", points: { capacity: 3 } }
+      { text: "Easily. We have the capacity to handle it.", points: { capacity: 0 } },
+      { text: "We could handle it, but we'd be operating close to our limit.", points: { capacity: 1 } },
+      { text: "I'd have to put in significantly more hours myself to keep up.", points: { capacity: 2, focus: 1 } },
+      { text: "We'd have to delay delivery or turn some business away.", points: { capacity: 3 } }
     ]
   },
   {
